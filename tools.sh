@@ -370,7 +370,7 @@ MENU
         return
 	;;
     1)
-        bash <(wget -q -O- --no-check-certificate https://gitlab.hoztnode.net/szajcev/tools/-/raw/main/scripts/du.sh)
+        bash <(wget -q -O- --no-check-certificate https://raw.githubusercontent.com/Vygoposha/tools.sh/refs/heads/main/du.sh)
 	return
         ;;
     2)
